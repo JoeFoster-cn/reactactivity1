@@ -1,0 +1,9 @@
+.Car {
+    background-color: rgb(216, 216, 231);
+    border: black solid 1px;
+  }
+
+#car1 {
+  width: 500px;
+  height: 500px;
+}
