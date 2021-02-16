@@ -1,4 +1,42 @@
-.Carcontainers {
-  display: flex;
-  word-spacing: 10em;
+* {
+  font-family: "Ubuntu";
+}
+
+.Carcontainer {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  width: 250px;
+  margin: 0;
+  padding: 5px;
+}
+
+.Carcontainer > div {
+  flex: 1 1 auto;
+  border: 1px solid whitesmoke;
+  border-radius: 1%;
+  text-align: left;
+  margin: 9px;
+}
+
+img {
+  height: 270px;
+  width: 350px;
+}
+
+.Title {
+  color: black;
+  padding-left: 0.7%;
+  padding-bottom: 0;
+  padding-top: 2%;
+  margin: 0;
+}
+
+.Deals {
+  font-size: 23px;
+  color: red;
+  text-align: right;
+  padding-right: 24%;
+  margin: 0;
+  word-spacing: 0.2em;
+  font-weight: bolder;
 }

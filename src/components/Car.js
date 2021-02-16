@@ -8,7 +8,8 @@ const Car = (props) => {
         <img src={props.img}></img>
         <h1>{props.name}</h1>
         <Pricing rrp = {props.rrp} price = {props.price}/>
-        <Details/>
+        <Details type = {props.type} desc = {props.desc}/>
+        <p className="New">BRAND NEW - IN STOCK</p>
       </div>
     )
 }

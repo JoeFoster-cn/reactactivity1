@@ -1,9 +1,13 @@
 .Car {
-    background-color: rgb(216, 216, 231);
-    border: black solid 1px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
   }
 
-#car1 {
-  width: 500px;
-  height: 500px;
+
+.New {
+  color: rgb(31, 199, 168);
+  font-weight: bold;
+  position: absolute;
+  bottom: 0px;
+  padding-left: 5%;
 }
